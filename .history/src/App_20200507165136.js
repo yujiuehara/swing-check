@@ -4,8 +4,6 @@ import './asset/style.css';
 
 import Menu from './components/Menu';
 import Login from './components/Login';
-import CommorativePictures from './components/CommorativePictures';
-import SwingCheck from './components/SwingCheck';
 
 const App = () => {
   return (

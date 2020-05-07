@@ -4,8 +4,6 @@ import './asset/style.css';
 
 import Menu from './components/Menu';
 import Login from './components/Login';
-import CommorativePictures from './components/CommorativePictures';
-import SwingCheck from './components/SwingCheck';
 
 const App = () => {
   return (
@@ -13,8 +11,9 @@ const App = () => {
       <Router>
         <Route exact path="/" component={Login} />
         <Route exact path="/menu" component={Menu} />
+        {/* <Route exact path="/menu" component={Menu} />
         <Route exact path="/commorativepictures" component={CommorativePictures} />
-        <Route exact path="/swingcheck" component={SwingCheck} />
+        <Route exact path="/swingcheck" component={SwingCheck} /> */}
       </Router>
     </div>
   );
