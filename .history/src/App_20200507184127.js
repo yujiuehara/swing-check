@@ -11,13 +11,12 @@ import SwingCheck from './components/SwingCheck';
 
 const App = () => {
 
-  const usersDatas = usersData 
 
-  console.log({});
+  const [password, setPassword] = useState('usersData.1.password');
+  const [contentId, setContentId] = useState('usersData.1.contentID');
+  const [groupId, setGroupId] = useState('usersData.1.groupID');
 
-  const [password, setPassword] = useState('');
-
-  
+  console.log({password})
 
   return (
     <div className="App">

@@ -13,11 +13,9 @@ const App = () => {
 
   const usersDatas = usersData 
 
-  console.log({});
+  const [password, setPassword] = useState({usersDatas.password});
 
-  const [password, setPassword] = useState('');
-
-  
+  console.log({password});
 
   return (
     <div className="App">

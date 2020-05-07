@@ -9,15 +9,14 @@ import Login from './components/Login';
 import CommorativePictures from './components/CommorativePictures';
 import SwingCheck from './components/SwingCheck';
 
-const App = () => {
+const App = (dataset) => {
 
-  const usersDatas = usersData 
 
-  console.log({});
+  const [password, setPassword] = useState('dataset.1.password');
+  const [contentId, setContentId] = useState('dataset.1.contentID');
+  const [groupId, setGroupId] = useState('dataset.1.groupID');
 
-  const [password, setPassword] = useState('');
-
-  
+  console.log({password})
 
   return (
     <div className="App">

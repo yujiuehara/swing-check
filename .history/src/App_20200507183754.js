@@ -2,7 +2,7 @@ import React,{ useState }from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './asset/style.css';
 
-import usersData from './dataset';
+import dataset from './dataset';
 
 import Menu from './components/Menu';
 import Login from './components/Login';
@@ -11,13 +11,11 @@ import SwingCheck from './components/SwingCheck';
 
 const App = () => {
 
-  const usersDatas = usersData 
+  const [password, setPassword] = useState('dataset.1.password');
+  const [contentId, setContentId] = useState('dataset.1.contentID');
+  const [groupId, setGroupId] = useState('dataset.1.groupID');
 
-  console.log({});
-
-  const [password, setPassword] = useState('');
-
-  
+  console.log({password})
 
   return (
     <div className="App">

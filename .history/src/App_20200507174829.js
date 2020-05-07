@@ -2,8 +2,6 @@ import React,{ useState }from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './asset/style.css';
 
-import usersData from './dataset';
-
 import Menu from './components/Menu';
 import Login from './components/Login';
 import CommorativePictures from './components/CommorativePictures';
@@ -11,13 +9,7 @@ import SwingCheck from './components/SwingCheck';
 
 const App = () => {
 
-  const usersDatas = usersData 
-
-  console.log({});
-
-  const [password, setPassword] = useState('');
-
-  
+  const [password,setPassword] = useState('');
 
   return (
     <div className="App">

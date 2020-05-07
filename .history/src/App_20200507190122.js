@@ -13,7 +13,7 @@ const App = () => {
 
   const usersDatas = usersData 
 
-  console.log({});
+  console.log({usersDatas});
 
   const [password, setPassword] = useState('');
 

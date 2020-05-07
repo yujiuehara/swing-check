@@ -13,11 +13,10 @@ const App = () => {
 
   const usersDatas = usersData 
 
-  console.log({});
+  const [password, setPassword] = useState({usersDatas});
 
-  const [password, setPassword] = useState('');
 
-  
+  console.log({password})
 
   return (
     <div className="App">
